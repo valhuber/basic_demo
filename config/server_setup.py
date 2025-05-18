@@ -86,7 +86,7 @@ project_name = os.path.basename(os.path.normpath(project_path))
 
 from typing import TypedDict
 import safrs  # fails without venv - see https://apilogicserver.github.io/Docs/Project-Env/
-from config.SAFRSBaseX import SAFRSBase
+from database.system.SAFRSBaseX import SAFRSBase
 from safrs import ValidationError, SAFRSAPI as _SAFRSAPI
 #from safrs import ValidationError, SAFRSBase, SAFRSAPI as _SAFRSAPI
 from logic_bank.logic_bank import LogicBank
